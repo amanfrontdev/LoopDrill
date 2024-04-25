@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center">
-        <ul className={`flex flex-col text-[16px] transition-all duration-500 ease-in-out bg-DarkGray ${hide ? "left-[0px] min-h-[300px]" : "-left-[900px]"} w-full top-20 md:h-auto absolute md:relative md:flex-row gap-4 justify-center items-center`}>
+        <ul className={` md:flex flex-col md:flex-row text-[16px] transition-all duration-500 ease-in-out bg-DarkGray  ${hide ? "flex left-[0px] py-10 md:py-0 " : "-left-[900px] md:left-0 hidden"} w-full top-20 md:top-0 md:h-auto absolute md:relative  gap-4 justify-center items-center`}>
           <li className="">
             <Link to="/" className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-medium" >
               Home
