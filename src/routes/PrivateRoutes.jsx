@@ -11,7 +11,7 @@ import ITServices from '../pages/Services'
 const PrivateRoutes = () => {
     return (
         <>
-            <div className='bg-customPurple'><Navbar /></div>
+            <div><Navbar /></div>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

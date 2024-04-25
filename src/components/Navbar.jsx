@@ -1,40 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
+  const [hide, setHide] = useState(false)
+
   return (
-    <div className="bg-customPurple mx-auto max-w-[1560px] border-black flex flex-row justify-between px-2 sm:px-10 py-4 ">
+    <div className="bg-DarkBlack relative mx-auto max-w-[1560px] border-black flex flex-row justify-between px-2 sm:px-10 py-4 ">
       <div>
-        <div>Logo Image</div>
+        <div className="w-40 h-12">
+          <img src="img/navbar/Logo.svg" alt="logo image" />
+        </div>
       </div>
-      <div>
-        <ul className="flex flex-row gap-10">
-          <li>
-            <Link to="/" className="text-white cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-customLightPurple" >
+      <div className="flex flex-row justify-center items-center">
+        <ul className={`flex flex-col text-[16px] transition-all duration-500 ease-in-out bg-DarkGray ${hide ? "left-[0px] min-h-[300px]" : "-left-[900px]"} w-full top-20 md:h-auto absolute md:relative md:flex-row gap-4 justify-center items-center`}>
+          <li className="">
+            <Link to="/" className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-medium" >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text-white cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-customLightPurple" >
+            <Link to="/about" className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-medium" >
               About
             </Link>
           </li>
           <li>
-            <Link to="/it-services" className="text-white cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-customLightPurple" >
+            <Link to="/it-services" className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-medium" >
               Services
             </Link>
           </li>
           <li>
-            <Link to="/it-education" className="text-white cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-customLightPurple" >
+            <Link to="/it-education" className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-medium" >
               Education
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="text-white cursor-pointer px-2 py-[6px] rounded-lg hover:bg-customLightPurple" >
+            <Link to="/contact" className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-lg hover:bg-white transition-all duration-300 ease-in-out font-medium" >
               Contact
             </Link>
           </li>
         </ul>
+      </div>
+      <div className="text-white flex justify-center items-center md:hidden" onClick={() => setHide(!hide)}>
+        {hide
+          ?
+          <RxCross2 size={20} />
+          :
+          <GiHamburgerMenu size={20} />
+        }
       </div>
     </div>
   );

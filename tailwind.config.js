@@ -7,11 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
+
         customPurple: '#7100b8',
-        customLightPurple: '#9300f5',
+        customLightPurple: '#7448fe',
         lightText: '#00bbff',
-        hotpink: '#FF00FF'
+        hotpink: '#FF00FF',
+        DarkBlack: "#0c171f",
+        DarkGray: "#101C26"
       },
+
     },
   },
   plugins: [],
