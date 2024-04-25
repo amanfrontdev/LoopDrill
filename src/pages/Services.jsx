@@ -8,7 +8,7 @@ import React from 'react'
 import Cards from '../components/services/Cards'
 import { cardsData } from '../data/Data'
 
-const Services = () => {
+const ITServices = () => {
     return (
         <div>
             {/* <MobileAppDev/> */}
@@ -22,4 +22,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default ITServices

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Contact from '../pages/Contact'
-import Education from '../pages/Education'
-import Services from '../pages/Services'
+import ITEducation from '../pages/Education'
 import About from '../pages/About'
 import Home from '../pages/Home'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import ITServices from '../pages/Services'
 
 const PrivateRoutes = () => {
     return (
@@ -15,8 +15,8 @@ const PrivateRoutes = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/services" element={<Services />} />
-                <Route path="/education" element={<Education />} />
+                <Route path="/it-services" element={<ITServices />} />
+                <Route path="/it-education" element={<ITEducation />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
             <div className='bg-customPurple'><Footer /></div>
