@@ -44,7 +44,7 @@ const Navbar = () => {
               className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-semibold"
               onClick={() => setHide(false)}
             >
-              Services
+              IT Services
             </Link>
           </li>
           <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
               className="text-customLightPurple cursor-pointer px-2 py-[6px] rounded-[6px] hover:bg-white transition-all duration-300 ease-in-out font-semibold"
               onClick={() => setHide(false)}
             >
-              Education
+              IT Education
             </Link>
           </li>
           <li>
