@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import "../../index.css";
+// import Paragraph from "./Paragraph";
+// import { headings } from "../../data/Data";
 
 const Cards = ({ cardsData }) => {
   const [expandedIndex, setExpandedIndex] = useState(-1); // Track which card is expanded
@@ -9,31 +12,53 @@ const Cards = ({ cardsData }) => {
 
   return (
     <div>
-      <div className="w-full">
-        <div className="flex flex-col md:flex-row justify-center max-w-[1920px] px-10 py-10 bg-red-500">
-
+      
+      <div className="bg-black ">
+      
+        <div className="flex  gap-x-3 flex-col md:flex-row justify-center max-w-[1920px] m-auto px-10 py-10">
+          
           {cardsData.map((item, index) => {
             const isExpanded = expandedIndex === index;
 
             return (
               <div
                 key={index}
-                className={`relative text-white overflow-hidden p-4 w-full ${isExpanded ? "w-[100%] min-h-32 " : "w-full md:w-[15%] min-h-10"} md:h-[20rem] transition-width duration-1000 ease-in-out`}
-                style={{ background: `linear-gradient(to right, #4f46e5, #964fe5)`, marginBottom: "1rem", }}
+                className={`relative rounded-b-3xl  overflow-hidden   text-2xl tracking-normal p-2 font-semibold w-full ${
+                  isExpanded
+                    ? "w-[100%] min-h-32 text-customPurple"
+                    : " text-white w-full md:w-[12%] min-h-10"
+                } md:h-[20rem] transition-width duration-1000 ease-in-out`}
+                style={{
+                  background: ` linear-gradient(to top, #000000, #7448fe, #FFFFFF)  `,
+                  marginBottom: "2rem",
+                  boxShadow: " 0 4px 6px rgba(255,255,255, 0.1)",
+                }}
                 onClick={() => handleExpand(index)}
               >
-                <div className={`absolute ${isExpanded ? "top-4 left-4" : "bottom-20 left-4"} transform ${isExpanded ? "rotate-0" : " md:rotate-90"} transition-transform duration-300`}
+                
+                {/* <Paragraph paragraph={headings}/> */}
+                <div
+                  className={`absolute break-words ${
+                    isExpanded ? "top-4 left-4" : "bottom-20 left-4"
+                  } transform ${
+                    isExpanded ? "rotate-0" : " md:rotate-90"
+                  } transition-transform duration-300`}
                   style={{ display: isExpanded ? "block" : "none" }}
                 >
                   {item.title}
                 </div>
-                <div className={`absolute left-4 bottom-2 md:bottom-20 whitespace-nowrap md:-left-6 transform transition-transform duration-1000 ${isExpanded ? "rotate-0" : " md:-rotate-90"}`}
+                <div
+                  className={`absolute left-6 bottom-2 md:bottom-20 whitespace-nowrap md:-left-6 transform transition-transform duration-1000 ${
+                    isExpanded ? "rotate-0" : " md:-rotate-90"
+                  }`}
                   style={{ display: isExpanded ? "none" : "block" }}
                 >
                   {item.title1}
                 </div>
                 {isExpanded && (
-                  <div style={{ marginTop: "2rem" }}>{item.text}</div>
+                  <div style={{ marginTop: "3rem", marginLeft: "1rem" }}>
+                    {item.text}
+                  </div>
                 )}
               </div>
             );
