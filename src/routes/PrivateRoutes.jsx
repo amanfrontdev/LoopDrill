@@ -10,7 +10,7 @@ import ITServices from '../pages/Services'
 
 const PrivateRoutes = () => {
     return (
-        <>
+        <div className='bg-DarkBlack'>
             <div><Navbar /></div>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ const PrivateRoutes = () => {
                 <Route path="/contact" element={<Contact />} />
             </Routes>
             <div className='bg-customPurple'><Footer /></div>
-        </>
+        </div>
     )
 }
 
