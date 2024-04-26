@@ -118,21 +118,3 @@ export const cardsData3 = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },
 ];
-export const headings = [
-    {
-        mainTitle: "MOBILE APP DEVELOPMENT"
-    }
-    ,
-    {
-        mainTitle: "WEB SOLUTION"
-    },
-    {
-        mainTitle: "ECOMMERCE"
-    },
-    {
-        mainTitle: "DESIGN"
-    },
-    {
-        mainTitle: "DEVOPS"
-    }
-]
