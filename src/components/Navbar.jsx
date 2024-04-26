@@ -15,7 +15,7 @@ const Navbar = () => {
       </Link>
       <div className="flex flex-row justify-center items-center">
         <ul
-          className={` md:flex flex-col md:flex-row text-[16px] z-10 transition-all duration-500 ease-in-out bg-DarkGray  ${hide
+          className={` md:flex flex-col md:flex-row text-[16px] z-10 transition-all duration-500 ease-in-out   ${hide
             ? "flex top-[76px] left-0 py-10 md:py-0 "
             : "-top-[300px] left-0 hidden"
             } w-full top-20 md:top-0 md:h-auto absolute md:relative  gap-4 justify-center items-center`}
