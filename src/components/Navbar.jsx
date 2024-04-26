@@ -7,7 +7,7 @@ const Navbar = () => {
   const [hide, setHide] = useState(false)
 
   return (
-    <div className="bg-DarkBlack relative mx-auto max-w-[1920px] border-black flex flex-row justify-between px-2 sm:px-10 py-4 ">
+    <div className="bg-DarkBlack relative mx-auto max-w-[1920px] border-black flex flex-row justify-between px-2 sm:px-10 items-center py-4">
       <div>
         <div className="w-40 h-12">
           <img src="img/navbar/Logo.svg" alt="logo image" />

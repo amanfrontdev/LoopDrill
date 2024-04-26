@@ -12,13 +12,15 @@ const PrivateRoutes = () => {
     return (
         <div className='bg-DarkBlack'>
             <div><Navbar /></div>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/it-services" element={<ITServices />} />
-                <Route path="/it-education" element={<ITEducation />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
+            <div className='bg-white'>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/it-services" element={<ITServices />} />
+                    <Route path="/it-education" element={<ITEducation />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </div>
             <div className='bg-customPurple'><Footer /></div>
         </div>
     )
