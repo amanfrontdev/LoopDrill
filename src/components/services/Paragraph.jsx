@@ -1,9 +1,11 @@
 import React from 'react'
 
 const Paragraph = (paragraph) => {
+  console.log(paragraph)
   return (
     <div>
-        <p>{paragraph}</p>
+
+
     </div>
   )
 }

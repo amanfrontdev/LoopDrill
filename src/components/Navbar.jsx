@@ -7,19 +7,18 @@ const Navbar = () => {
   const [hide, setHide] = useState(false);
 
   return (
-    <div className="z-50 relative  m-auto max-w-[1920px]  flex flex-row justify-between px-2 sm:px-10 items-center py-4">
-      <div>
+    <div className="z-50 relative m-auto max-w-[1920px] flex flex-row justify-between px-2 sm:px-10 items-center py-4">
+      <Link to="/">
         <div className="w-40 h-12">
           <img src="img/navbar/Logo.svg" alt="logo image" />
         </div>
-      </div>
+      </Link>
       <div className="flex flex-row justify-center items-center">
         <ul
-          className={` md:flex flex-col md:flex-row text-[16px] z-10 transition-all duration-500 ease-in-out bg-DarkGray  ${
-            hide
-              ? "flex top-[76px] left-0 py-10 md:py-0 "
-              : "-top-[300px] left-0"
-          } w-full top-20 md:top-0 md:h-auto absolute md:relative  gap-4 justify-center items-center`}
+          className={` md:flex flex-col md:flex-row text-[16px] z-10 transition-all duration-500 ease-in-out bg-DarkGray  ${hide
+            ? "flex top-[76px] left-0 py-10 md:py-0 "
+            : "-top-[300px] left-0 hidden"
+            } w-full top-20 md:top-0 md:h-auto absolute md:relative  gap-4 justify-center items-center`}
         >
           <li className="">
             <Link

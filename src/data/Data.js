@@ -125,10 +125,10 @@ export const headings = [
     ,
     {
         mainTitle: "WEB SOLUTION"
-    }, 
+    },
     {
         mainTitle: "ECOMMERCE"
-    }, 
+    },
     {
         mainTitle: "DESIGN"
     },
