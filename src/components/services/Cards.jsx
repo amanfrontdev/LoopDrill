@@ -10,8 +10,8 @@ const Cards = ({ cardsData }) => {
 
   return (
     <div>
-      <div className="bg-black ">
-        <div className="flex  gap-x-5 flex-col md:flex-row justify-center max-w-[1920px] m-auto px-10 py-40">
+      <div className="bg-black  ">
+        <div className="flex  gap-x-5 flex-col md:flex-row justify-center max-w-[1920px] m-auto px-10 py-20">
           {cardsData.map((item, index) => {
             const isExpanded = expandedIndex === index;
 
@@ -31,7 +31,7 @@ const Cards = ({ cardsData }) => {
                 onClick={() => handleExpand(index)}
               >
                 <div
-                  className={`absolute break-words ${
+                  className={`absolute ${
                     isExpanded ? "top-4 left-4" : "bottom-32 left-4"
                   } transform ${
                     isExpanded ? "rotate-0" : " md:rotate-90"
