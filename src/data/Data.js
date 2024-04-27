@@ -61,29 +61,30 @@ export const cardsData1 = [
 export const cardsData2 = [
     {
         id: 1,
-        title: "Web Development",
-        title1: "Web Development",
+        title: "UI / UX",
+        title1: "UI / UX",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },
     {
         id: 2,
-        title: "Web Development",
-        title1: "Web Development",
+        title: "Wireframe & Prototype Design",
+        title1: "Wireframe & Prototype Design",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },
     {
         id: 3,
-        title: "Web Development",
-        title1: "Web Development",
+        title: "Ecommerce Design",
+        title1: "Ecommerce Design",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },
     {
         id: 4,
-        title: "Web Development",
-        title1: "Web Development",
+        title: "Logo Design",
+        title1: "Logo Design",
+
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },

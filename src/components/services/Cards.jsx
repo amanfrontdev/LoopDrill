@@ -10,8 +10,8 @@ const Cards = ({ cardsData }) => {
 
   return (
     <div>
-      <div className="bg-black">
-        <div className="flex  gap-x-5 flex-col md:flex-row justify-center max-w-[1920px] m-auto px-10 py-10">
+      <div className="bg-black ">
+        <div className="flex  gap-x-5 flex-col md:flex-row justify-center max-w-[1920px] m-auto px-10 py-40">
           {cardsData.map((item, index) => {
             const isExpanded = expandedIndex === index;
 
