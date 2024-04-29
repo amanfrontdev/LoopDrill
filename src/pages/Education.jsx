@@ -10,14 +10,14 @@ const ITEducation = () => {
             <Banner text="IT EDUCATION" />
             <div className="text-center ">
                 <Paragraph
-                    className=" bg-black font-semibold text-customLightPurple text-3xl tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="JAVA"
                 />
                 <Cards cardsData={Java} />
             </div>
             <div className="text-center">
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="PYTHON"
                 />
                 <Cards cardsData={Python} />
@@ -25,7 +25,7 @@ const ITEducation = () => {
 
             <div className="text-center">
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="CFAMILY"
                 />
                 <Cards cardsData={Cfamily} />
@@ -33,7 +33,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="FRONTEND"
                 />
                 <Cards cardsData={frontEnd} />
@@ -41,7 +41,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="PROGRAMMING LANGUAGE"
                 />
                 <Cards cardsData={programmingLang} />
@@ -49,7 +49,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="ANDROID APP"
                 />
                 <Cards cardsData={mobileTechApp} />
@@ -57,7 +57,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="DATABASES"
                 />
                 <Cards cardsData={databases} />
@@ -65,7 +65,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="ALGORITHM"
                 />
                 <Cards cardsData={DSA} />
@@ -73,7 +73,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="DEVELOPER TOOLS"
                 />
                 <Cards cardsData={devTools} />
@@ -81,7 +81,7 @@ const ITEducation = () => {
             <div className="text-center">
                 {" "}
                 <Paragraph
-                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-20 py-14"
+                    className="bg-black font-semibold text-customLightPurple text-3xl  tracking-wider px-4 sm:px-20 py-0 sm:py-14"
                     text="TESTING"
                 />
                 <Cards cardsData={testing} />

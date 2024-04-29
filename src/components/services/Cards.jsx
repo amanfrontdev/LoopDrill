@@ -32,7 +32,7 @@ const Cards = ({ cardsData }) => {
                 <div
                   className={`absolute ${isExpanded ? "top-4 left-4" : "bottom-32 left-4"
                     } transform ${isExpanded ? "rotate-0" : " md:rotate-90"
-                    } transition-transform duration-300 text-[18px] sm:text-[20px]`}
+                    } transition-transform duration-300 leading-[18px] text-[18px] sm:text-[20px]`}
                   style={{ display: isExpanded ? "block" : "none" }}
                 >
                   {item.title}
