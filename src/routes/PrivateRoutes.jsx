@@ -12,7 +12,7 @@ const PrivateRoutes = () => {
     return (
         <div className='bg-DarkBlack'>
             <div><Navbar /></div>
-            <div className='bg-white'>
+            <div className='bg-black'>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
