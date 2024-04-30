@@ -12,6 +12,7 @@ import {
   frontEnd,
   mobileTechApp,
   programmingLang,
+  security,
   testing,
 } from "../data/Data";
 
@@ -66,6 +67,11 @@ const ITEducation = () => {
         {" "}
         <Paragraph text="TESTING" />
         <Cards cardsData={testing} />
+      </div>
+      <div className="text-center">
+        {" "}
+        <Paragraph text="SECURITY" />
+        <Cards cardsData={security} />
       </div>
     </div>
   );

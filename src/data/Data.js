@@ -498,3 +498,40 @@ export const devTools = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },
 ];
+export const security = [
+    {
+        id: 1,
+        title: "NETWORK BASICS",
+        title1: "NETWORK BASICS",
+        text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+    },
+    {
+        id: 2,
+        title: "ETHICAL HACKING",
+        title1: "ETHICAL HACKING",
+        text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+    },
+    {
+        id: 3,
+        title: "CYBER SECURITY",
+        title1: "CYBER SECURITY",
+        text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+    },
+    {
+        id: 4,
+        title: "PENETRATION TESTING",
+        title1: "PENETRATION TESTING",
+        text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+    },
+    {
+        id: 5,
+        title: "BUG BOUNTY",
+        title1: "BUG BOUNTY",
+        text:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+    },
+];
