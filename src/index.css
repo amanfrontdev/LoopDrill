@@ -6,3 +6,12 @@ body {
     font-family: "Blinker", sans-serif;
     background-color: black;
 }
+
+.shadowBox {
+    box-shadow: -2px 4px 8px 1px white;
+    transition: all 0.5s ease-in-out;
+}
+
+.shadowBox:hover {
+    transform: translateX(2%);
+}
