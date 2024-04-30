@@ -29,7 +29,7 @@ const Footer = () => {
   return (
 
    <div className="w-full bg-DarkGray relative ">
-     <footer className="width-box2 flex flex-col items-center max-w-[1920px] m-auto bg-DarkGray text-center text-surface dark:text-white">
+     <footer className="width-box2 flex flex-col items-center max-w-[1920px] m-auto bg-black text-center text-surface dark:text-white">
       <div className="container pt-9">
         {/* Social media icons container */}
         <div className="mb-6 flex justify-center space-x-2">
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       {/*Copyright section*/}
-      <div className="w-full  text-white p-4 text-center flex justify-between px-10">
+      <div className="w-full  text-white p-4 text-center flex-wrap  flex justify-center sm:justify-between px-10">
         <p> © 2024 Copyright: Loopdrill</p>
         <p> Designed & Developed by Shivam || Yaman</p>
       </div>
