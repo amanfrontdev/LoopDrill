@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../assets/images/banner.jpg"
 const Mission = () => {
   const array = [
     {

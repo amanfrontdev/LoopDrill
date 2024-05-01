@@ -15,3 +15,9 @@ body {
 .shadowBox:hover {
     transform: translateX(2%);
 }
+.bg-image{
+    background-image: url("./assets/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
