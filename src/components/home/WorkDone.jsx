@@ -1,9 +1,9 @@
 import React from 'react'
 
-const WorkDone = ({ heading, para, num, arrow }) => {
+const WorkDone = ({ heading, para, num, arrow, widthHeight }) => {
     return (
         <div className='relative'>
-            <div className="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px] shadowBox flex-col bg-black hover:bg-customPurple  text-white p-4 rounded-lg flex">
+            <div className={`${widthHeight} shadowBox flex-col bg-black hover:bg-customPurple  text-white p-4 rounded-lg flex`}>
                 <p className='text-2xl lg:text-6xl w-full flex justify-end'>
                     {num}
                 </p>

@@ -1,29 +1,24 @@
 import React from 'react'
 import Cards from '../components/services/Cards'
-import { cardsData, cardsData1, cardsData2, cardsData3 } from '../data/Data'
+import { homeCardData } from '../data/Data'
 import MiddleText from '../components/home/MiddleText'
 import ProgressBar from '../components/home/ProgressBar'
 import WorkDone from '../components/home/WorkDone'
+import HeroBanner from '../components/home/HeroBanner'
 
 
 const Home = () => {
     return (
-        <section className='max-w-[1920px] mx-auto -z-10'>
+        <section className='w-full -z-10'>
             {/* first section  */}
-            <div className="flex flex-col md:flex-row h-[450px] sm:h-[600px] bg-DarkGray">
-                <div className="w-full flex pt-32 ">
-                    <div className=" mx-auto text-center px-1">
-                        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-customLightPurple mb-4">Creating strategies for </h1>
-                        <p className="text-xl sm:text-2xl md:text-4xl text-white">Creating strategies for cutting-edge technology trends.</p>
-                        <p className='mx-auto text-xs max-w-[600px] lg:max-w-[800px] sm:text-md md:text-xl mt-2 text-white/90 font-medium'>OFFERING EFFECTIVE SOLUTIONS, OUR SOFTWARE DEVELOPMENT COMPANY SPECIALIZES IN CRAFTING INNOVATIVE SOFTWARE PRODUCTS</p>
-                    </div>
-                </div>
+            <div className='w-full flex bg-DarkGray'>
+                <HeroBanner heading="Creating strategies" para1="for cutting-edge technology trends." para2="OFFERING EFFECTIVE SOLUTIONS, OUR SOFTWARE DEVELOPMENT COMPANY SPECIALIZES IN CRAFTING INNOVATIVE SOFTWARE PRODUCTS." />
             </div>
 
             {/* second section  */}
             <div className="text-center pt-10 ">
                 <MiddleText heading="What we serve" para="Our Software Development Service" />
-                <Cards cardsData={cardsData} />
+                <Cards cardsData={homeCardData} />
             </div>
 
             {/* third section */}
@@ -38,23 +33,25 @@ const Home = () => {
             </div>
 
             {/* fourth section  */}
-            <div className='bg-DarkGray py-20'>
-                <MiddleText heading="How work is done in" para="Loopdrill" />
-                <div className="flex flex-row max-w-[1920px] px-10 mt-20 pb-20 justify-center gap-16 md:gap-24 flex-wrap ">
-                    <WorkDone arrow="true" num="01" heading="Information Gathering" para="We meticulously collect every detail, beginning with your vision and delving deep into the core ideas within your mind." />
-                    <WorkDone arrow="true" num="02" heading="Research and brainstorm" para="Thoroughly analyzing your competitors' businesses, we craft unique selling points that set your business apart in the market." />
-                    <WorkDone arrow="true" num="03" heading="Design blueprintg" para="A collaborative effort combining diverse ideas and thorough research to pave a path where everything can flow smoothly" />
+            <div className='w-full bg-DarkGray'>
+                <div className='py-20 mx-auto max-w-[1920px]'>
+                    <MiddleText heading="How work is done in" para="Loopdrill" />
+                    <div className="flex flex-row max-w-[1920px] px-10 mt-20 pb-20 justify-center gap-16 md:gap-24 flex-wrap ">
+                        <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="true" num="01" heading="Information Gathering" para="We meticulously collect every detail, beginning with your vision and delving deep into the core ideas within your mind." />
+                        <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="true" num="02" heading="Research and brainstorm" para="Thoroughly analyzing your competitors' businesses, we craft unique selling points that set your business apart in the market." />
+                        <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="true" num="03" heading="Design blueprint" para="A collaborative effort combining diverse ideas and thorough research to pave a path where everything can flow smoothly" />
 
-                    <WorkDone arrow="true" num="04" heading="Development" para="All the gathered resources will be utilized, transforming into reality through the enchantment of coding." />
-                    <WorkDone arrow="true" num="05" heading="Code review" para="Dedicated to addressing both minor hiccups and major challenges in the project, resolving them promptly." />
-                    <WorkDone arrow="true" num="06" heading="Testing" para="Once all preparations are complete on the developer's end, the focus shifts to identifying and resolving any bugs that may arise." />
+                        <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="true" num="04" heading="Development" para="All the gathered resources will be utilized, transforming into reality through the enchantment of coding." />
+                        <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="true" num="05" heading="Code review" para="Dedicated to addressing both minor hiccups and major challenges in the project, resolving them promptly." />
+                        <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="true" num="06" heading="Testing" para="Once all preparations are complete on the developer's end, the focus shifts to identifying and resolving any bugs that may arise." />
 
-                    <div className=''>
-                        <WorkDone arrow="false" num="07" heading="Project deliver" para="With everything in place, your project is poised to launch into the market, ready to achieve remarkable success." />
+                        <div className=''>
+                            <WorkDone widthHeight="w-[250px] lg:w-[300px] h-[200px] lg:h-[260px]" arrow="false" num="07" heading="Project deliver" para="With everything in place, your project is poised to launch into the market, ready to achieve remarkable success." />
+                        </div>
                     </div>
+
+
                 </div>
-
-
             </div>
 
         </section>

@@ -12,9 +12,9 @@ const Devtools = () => {
     { title: "Title 6", text: "Text 6", image: yoginder },
   ];
   return (
-    <div className="mt-20">
-      <div className="flex flex-col justify-center py-10 items-center  text-customPurple">
-       <MiddleText heading="Our Offerings" para="This is what we have for you"/>
+    <div className="mt-20 bg-DarkGray pb-10 sm:pb-24  sm:pt-12">
+      <div className="flex flex-col justify-center py-10 items-center text-customPurple">
+        <MiddleText heading="Our Offerings" para="This is what we have for you" />
       </div>
       <div className="flex w-full max-w-[1920px] mx-auto flex-wrap">
         {data.map((item, index) => (

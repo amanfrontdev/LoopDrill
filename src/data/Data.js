@@ -120,6 +120,44 @@ export const cardsData3 = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
     },
 ];
+export const homeCardData = [
+    {
+        id: 1,
+        title: "Mobile App Development",
+        title1: "Mobile App Development",
+        text:
+            "Hand-created with an affection for remarkably very much planned UX and streamlined custom portable applications for the two iOS and Android.",
+        subTitle: ["ios App Development", "Android Development", "Cross Platform App Development", "Enterprise mobile app development"]
+    },
+    {
+        id: 2,
+        title: "Web Solution",
+        title1: "Web Solution",
+        text: "Make a safe, quick, and hypnotizing web application that is customized only for your business needs.",
+        subTitle: ["Frontend Development", "Backend Development", "Full-Stack Development", "Custom Web App Development"]
+    },
+    {
+        id: 3,
+        title: "Design",
+        title1: "Design",
+        text: "Site and Application Plans especially organized to cause your business to contend in each industry.",
+        subTitle: ["UI / UX  Design", "Wireframe and Prototype design", "Ecommerce Design", "Logo Design"]
+    },
+    {
+        id: 4,
+        title: "Ecommerce",
+        title1: "Ecommerce",
+        text: "Creative mind is yours. We are here to make that craftsmanship with our insight and abilities to draw out the uniqueness in your plan.",
+        subTitle: ["ECommerce Development", "WooCommerce Development", "Shopify Development", "WordPress Development"]
+    },
+    {
+        id: 5,
+        title: "Security",
+        title1: "Security",
+        text: "Your digital world is your canvas. Let our expertise and ingenuity craft a security masterpiece that brings out the uniqueness in your protection.",
+        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+    },
+];
 export const Java = [
     {
         id: 1,

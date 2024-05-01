@@ -13,12 +13,12 @@ const Mission = () => {
   ];
 
   return (
-    <div className="w-full text-white flex py-20">
-      <div className="max-w-[1920px]  mx-auto  h-full p-8 flex flex-col whitespace-normal">
+    <div className="w-full text-white text-center sm:text-start flex py-0 sm:py-10">
+      <div className="max-w-[1920px] mx-auto h-full p-4 sm:p-8 flex flex-col whitespace-normal">
         {array.map((item, index) => (
-          <div key={index} className="flex flex-col justify-between py-20">
+          <div key={index} className="flex flex-col justify-between py-10 sm:py-20">
             <h2 className="text-4xl text-customPurple font-extrathin">{item.heading}</h2>
-            <p className="mt-4 ml-10">{item.text}</p>
+            <p className="mt-4">{item.text}</p>
           </div>
         ))}
       </div>

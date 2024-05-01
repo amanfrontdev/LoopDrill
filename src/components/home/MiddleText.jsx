@@ -6,7 +6,7 @@ const MiddleText = ({ heading, para }) => {
             <div className='text-lg text-white'>
                 {heading}
             </div>
-            <p className='text-customPurple text-2xl sm:text-4xl uppercase'>
+            <p className='text-customPurple text-xl sm:text-4xl uppercase'>
                 {para}
             </p>
         </div>
