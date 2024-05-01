@@ -28,7 +28,7 @@ const socialMediaIcons = [
 const Footer = () => {
   return (
 
-   <div className="w-full bg-DarkGray relative ">
+   <div className="w-full bg-black relative ">
      <footer className="width-box2 flex flex-col items-center max-w-[1920px] m-auto bg-black text-center text-surface dark:text-white">
       <div className="container pt-9">
         {/* Social media icons container */}
