@@ -50,7 +50,7 @@ const Footer = () => {
       {/*Copyright section*/}
       <div className="w-full  text-white p-4 text-center flex-wrap  flex justify-center sm:justify-between px-10">
         <p> © 2024 Copyright: Loopdrill</p>
-        <p> Designed & Developed by Shivam || Yaman</p>
+        <p> Designed & Developed by Loopdrill Pvt. Ltd.</p>
       </div>
     </footer>
    </div>
