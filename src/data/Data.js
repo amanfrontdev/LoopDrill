@@ -5,6 +5,7 @@ export const cardsData = [
         title1: "ios App Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ export const cardsData = [
         title1: "Andoid Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ export const cardsData = [
         title1: "Cross-Platform App Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ export const cardsData = [
         title1: "Enterprise Mobile App Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -36,6 +40,8 @@ export const cardsData1 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -43,6 +49,7 @@ export const cardsData1 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -50,6 +57,7 @@ export const cardsData1 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -57,6 +65,7 @@ export const cardsData1 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 ];
 export const cardsData2 = [
@@ -66,6 +75,7 @@ export const cardsData2 = [
         title1: "UI / UX",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -73,6 +83,7 @@ export const cardsData2 = [
         title1: "Wireframe & Prototype Design",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -80,6 +91,7 @@ export const cardsData2 = [
         title1: "Ecommerce Design",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -88,6 +100,7 @@ export const cardsData2 = [
 
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 ];
 export const cardsData3 = [
@@ -97,6 +110,7 @@ export const cardsData3 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -104,6 +118,7 @@ export const cardsData3 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -111,6 +126,7 @@ export const cardsData3 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -118,6 +134,7 @@ export const cardsData3 = [
         title1: "Web Development",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 ];
 export const homeCardData = [
@@ -165,6 +182,7 @@ export const Java = [
         title1: "CORE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -172,6 +190,7 @@ export const Java = [
         title1: "ADVANCE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -179,6 +198,7 @@ export const Java = [
         title1: "FRAMEWORK(SPRING)",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -186,6 +206,7 @@ export const Java = [
         title1: "FRONTEND",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -193,6 +214,7 @@ export const Java = [
         title1: "BACKEND",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -203,6 +225,7 @@ export const Python = [
         title1: "CORE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -210,6 +233,7 @@ export const Python = [
         title1: "ADVANCE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -217,6 +241,7 @@ export const Python = [
         title1: "FRAMEWORK(DJANGO)",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -224,6 +249,7 @@ export const Python = [
         title1: "FRONTEND",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -231,6 +257,7 @@ export const Python = [
         title1: "BACKEND",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -241,6 +268,7 @@ export const Cfamily = [
         title1: "CORE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -248,6 +276,7 @@ export const Cfamily = [
         title1: "ADVANCE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -255,6 +284,7 @@ export const Cfamily = [
         title1: "FRAMEWORK(.NET)",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -262,6 +292,7 @@ export const Cfamily = [
         title1: "FRONTEND",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -269,6 +300,7 @@ export const Cfamily = [
         title1: "BACKEND",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -279,6 +311,7 @@ export const frontEnd = [
         title1: "BASIC LANGUAGES",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -286,6 +319,7 @@ export const frontEnd = [
         title1: "TYPESCSRIPT",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -293,6 +327,7 @@ export const frontEnd = [
         title1: "BOOTSTRAP",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -300,6 +335,7 @@ export const frontEnd = [
         title1: "REACT",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -307,6 +343,7 @@ export const frontEnd = [
         title1: "ANGULAR",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -317,6 +354,7 @@ export const programmingLang = [
         title1: "C",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -324,6 +362,7 @@ export const programmingLang = [
         title1: "C++",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -331,6 +370,7 @@ export const programmingLang = [
         title1: "c#",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -338,6 +378,7 @@ export const programmingLang = [
         title1: "JAVA",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -345,6 +386,7 @@ export const programmingLang = [
         title1: "PYTHON",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -355,6 +397,7 @@ export const mobileTechApp = [
         title1: "FLUTTER",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -362,6 +405,7 @@ export const mobileTechApp = [
         title1: "ANDROID",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -369,6 +413,7 @@ export const mobileTechApp = [
         title1: "KOTLIN",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -376,6 +421,7 @@ export const mobileTechApp = [
         title1: "REACT NATIVE",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -383,6 +429,7 @@ export const mobileTechApp = [
         title1: "IOS",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 ];
 export const databases = [
@@ -392,6 +439,7 @@ export const databases = [
         title1: "SQL",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -399,6 +447,7 @@ export const databases = [
         title1: "MYSQL",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -406,6 +455,7 @@ export const databases = [
         title1: "DBMS",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -413,6 +463,7 @@ export const databases = [
         title1: "POSTGRESQL",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -420,6 +471,7 @@ export const databases = [
         title1: "MONGODB",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 
 ];
@@ -430,6 +482,7 @@ export const testing = [
         title1: "AUTOMATION",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -437,6 +490,7 @@ export const testing = [
         title1: "POSTMAN",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -444,6 +498,7 @@ export const testing = [
         title1: "API TESTER",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -451,6 +506,7 @@ export const testing = [
         title1: "SELENIUM",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -458,6 +514,7 @@ export const testing = [
         title1: "JUNIT",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     }
 
 ];
@@ -468,6 +525,7 @@ export const DSA = [
         title1: "DSA",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -475,6 +533,7 @@ export const DSA = [
         title1: "JAVA DSA",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -482,6 +541,7 @@ export const DSA = [
         title1: "C DSA",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -489,6 +549,7 @@ export const DSA = [
         title1: "ALGORITHM",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -496,6 +557,7 @@ export const DSA = [
         title1: "CODING INTERVIEW",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     }
 
 ];
@@ -506,6 +568,7 @@ export const devTools = [
         title1: "GIT/GITHUB",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -513,6 +576,7 @@ export const devTools = [
         title1: "KUBERNETES",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -520,6 +584,7 @@ export const devTools = [
         title1: "DOCKER",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -527,6 +592,7 @@ export const devTools = [
         title1: "DEVOPS",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -534,6 +600,7 @@ export const devTools = [
         title1: "TERRAFORM",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 ];
 export const security = [
@@ -543,6 +610,7 @@ export const security = [
         title1: "NETWORK BASICS",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 2,
@@ -550,6 +618,7 @@ export const security = [
         title1: "ETHICAL HACKING",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 3,
@@ -557,6 +626,7 @@ export const security = [
         title1: "CYBER SECURITY",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 4,
@@ -564,6 +634,7 @@ export const security = [
         title1: "PENETRATION TESTING",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
     {
         id: 5,
@@ -571,5 +642,6 @@ export const security = [
         title1: "BUG BOUNTY",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
     },
 ];
