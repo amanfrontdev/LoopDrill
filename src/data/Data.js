@@ -181,40 +181,40 @@ export const Java = [
         title: "CORE",
         title1: "CORE",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Your creativity fuels our approach. With Core Java expertise, we empower your educational journey, unveiling unique insights and fostering innovative thinking for your programming aspirations",
+        subTitle: ["Dive into Core Java to nurture your programming skills.        ", "Blend creativity and expertise for innovative coding solutions.", "Uncover the uniqueness of Java through interactive learning.", "Dedicated guidance to refine your Java programming abilities."]
     },
     {
         id: 2,
         title: "ADVANCE",
         title1: "ADVANCE",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Your creative vision is key. With Advanced Java expertise, we empower your educational journey, unveiling unique insights and fostering innovative thinking for your programming aspirations.",
+        subTitle: ["Explore Advanced Java for advanced programming proficiency.   ", "Merge creativity and expertise for intricate coding solutions.        ", "Unveil the uniqueness of Advanced Java through interactive learning.        ", "Dedicated guidance to refine your Advanced Java programming skills."]
     },
     {
         id: 3,
         title: "FRAMEWORK(SPRING)",
         title1: "FRAMEWORK(SPRING)",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Empower your creativity. With Spring framework expertise, we guide your educational journey, fostering innovative solutions and uncovering the unique essence of your programming projects.",
+        subTitle: ["Harness Spring framework to elevate your programming skills.        ", " Merge creativity and expertise for dynamic application development.", "Uncover the unique features of Spring through hands-on learning.        ", "Dedicated guidance to master Spring framework intricacies."]
     },
     {
         id: 4,
         title: "FRONTEND",
         title1: "FRONTEND",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Unleash your creativity. With Java frontend expertise, we guide your educational journey, fostering innovative designs and uncovering the unique essence of your web projects.",
+        subTitle: ["Explore Java frontend to enhance your web development skills", "Merge creativity and expertise for captivating user interfaces.        ", "Unveil the uniqueness of Java frontend through practical learning.", "Dedicated guidance to master Java frontend design intricacies."]
     },
     {
         id: 5,
         title: "BACKEND",
         title1: "BACKEND",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Empower your creativity. With Java backend expertise, we guide your educational journey, fostering innovative solutions and uncovering the unique essence of your backend projects.",
+        subTitle: ["Dive into Java backend to refine your programming skills.        ", "2. Merge creativity and expertise for robust application development.        ", "2. Merge creativity and expertise for robust application development.        ", "Dedicated guidance to master Java backend intricacies."]
     },
 
 ];
