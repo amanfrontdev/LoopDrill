@@ -30,12 +30,12 @@ const About = () => {
           <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2021" heading=" working as a corporate trainer" />
           <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2022" heading=" got the Java certificate " />
           <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2023" heading=" successful managed 20+ clients social media " />
-          <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2024" heading="  register as Pvt Ltd company" />
+          <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2024" heading="  register as Pvt.  Ltd company" />
         </div>
 
         <div className="bg-DarkGray py-10 px-20">
           <MiddleText heading="OUR SKILL SETS" para="LOOPDRILL VALUES" />
-          <div className="flex flex-row justify-center xl:justify-between flex-wrap gap-10 sm:gap-32 pt-10">
+          <div className="flex flex-row justify-center  flex-wrap gap-10 sm:gap-32 pt-10">
             {valuesData.map((item) => {
               return (
                 <div key={item.id} className="flex flex-row xl:gap-10">
