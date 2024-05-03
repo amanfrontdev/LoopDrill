@@ -30,7 +30,7 @@ const ITEducation = () => {
       </div>
 
       <div className="text-center">
-        <Paragraph text="CFAMILY" />
+        <Paragraph text="C(FAMILY)" />
         <Cards cardsData={Cfamily} />
       </div>
       <div className="text-center">
