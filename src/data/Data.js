@@ -335,15 +335,15 @@ export const frontEnd = [
         title1: "REACT",
         text:
             "   React is a popular JavaScript library for building user interfaces. It enables developers to create interactive, reusable UI components, making front-end development efficient and flexible.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+        subTitle: ["React gives you reusability of components React uses redux , flux.", "The data in react flows only in one direction i.e. the data is transferred from top to bottom i.e. from parent components to child components.", "React has many extensions that we can use to create full-fledged UI applications. It supports mobile app development and provides server-side rendering. ", "React uses virtual DOM which is an exact copy of real DOM. "]
     },
     {
         id: 5,
         title: "ANGULAR",
         title1: "ANGULAR",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Angular is a popular framework for building dynamic web apps. It uses TypeScript, offers two-way data binding, and simplifies complex UIs.",
+        subTitle: ["Angular is a Single-Page Applications (SPAs)", " Angular is most used in real-time applications, such as chat applications, weather and forecasting, and live tracking systems.", " Angular is used to create interactive dashboards and analytics tools, it helps in data visualization.", "With frameworks like Ionic or NativeScript, Angular is used to build cross-platform mobile applications for iOS and Android operating systems."]
     },
 
 ];
@@ -353,40 +353,40 @@ export const programmingLang = [
         title: "C",
         title1: "C",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "C, a foundational programming language, powers countless systems. Its speed and control make it ideal for operating systems, games, and embedded devices. Though demanding to learn, C's influence on modern programming is undeniable.",
+        subTitle: ["   Preprocess: Prepare! This stage cleans code, includes files, and defines macros.", "Compile: Translate! Code becomes assembly, a language the CPU understands better.", "      Assemble: Instruct! Assembly turns into machine code, a series of 0s and 1s.", "Link: Combine! The program joins with libraries, creating a final executable file."]
     },
     {
         id: 2,
         title: "C++",
         title1: "C++",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "C++, a powerful, general-purpose language, blends high-level features with control over system resources. Inherited from C, it's famous for performance and creating efficient software like games, operating systems, and embedded systems. Its object-oriented approach structures code for reusability.",
+        subTitle: ["Object-Oriented: Design programs with real-world objects and their interactions.", "Memory Management: Manually control memory allocation and deallocation for efficiency.", "Templates: Create generic code that works with various data types without code duplication.", "Rich Standard Library: Utilize a vast collection of pre-written functions for common tasks."]
     },
     {
         id: 3,
         title: "c#",
         title1: "c#",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "  C#, pronounced C-Sharp, is a versatile, object-oriented programming language from Microsoft. Popular for its readability and .NET Framework integration, C# is used to build web apps, games, and more.",
+        subTitle: ["Object-Oriented: Build programs with objects like real-world things.", "Type Safety: Ensures code reliability by defining data types.", "Garbage Collection: Automatic memory management simplifies development.", "Powerful Libraries: Access rich functionality for common tasks."]
     },
     {
         id: 4,
         title: "JAVA",
         title1: "JAVA",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "  Java, a popular high-level programming language, lets developers create software for various devices. Known for its write once, run anywhere approach Java code compiles into a format readable by most computers. With features like object-oriented programming and garbage collection Java simplifies software development.",
+        subTitle: ["Write Once, Run Anywhere: Code runs on most systems without changes.", "Object-Oriented: Organizes code into reusable building blocks.", "Garbage Collection: Automatic memory management simplifies development.", "Large Community: Extensive resources and libraries for various needs."]
     },
     {
         id: 5,
         title: "PYTHON",
         title1: "PYTHON",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Python, a beginner-friendly programming language, is known for its clear syntax and readability.  Popular for web development, data science, and automation, it uses libraries like TensorFlow for machine learning.  Its focus on readability makes it a great first language for programmers.",
+        subTitle: ["Easy to read: Python code is known for its readability. It uses clear keywords and indentation to structure your program.", "Free and open-source: Use for any purpose, and its open-source nature allows anyone to contribute to its development.", "Powerful libraries:  These libraries provide pre-written code for things like data analysis, web development, and scientific computing.", "Interpreted language: Python code is executed line by line, making it simpler to test and debug your programs."]
     },
 
 ];
@@ -397,39 +397,39 @@ export const mobileTechApp = [
         title1: "FLUTTER",
         text:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+        subTitle: ["Hot Reload: Changes show instantly - See updates in milliseconds without restarting the app.", "Rich Widgets: Build anything fast - Wide variety of pre-built widgets for common UI elements.", "Cross-Platform: Code once, run everywhere - Build native apps for iOS, Android, and more.", "Customizable: Make it your own - Highly customizable widgets and themes for unique designs."]
     },
     {
         id: 2,
         title: "ANDROID",
         title1: "ANDROID",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            " Android lets you personalize your phone. Widgets show info at a glance, while multitasking lets you run apps side-by-side.  Voice Assistant helps with tasks and Google Play offers millions of apps and games.",
+        subTitle: ["Open Source: Free and customizable - Modify the code to fit your app's specific needs.", "App Library: Organize your apps - Group apps automatically for easier access.", "Google Assistant: Voice control - Use voice commands to launch apps and control settings.", "Multitasking: Do more at once - Split screen or use picture-in-picture mode for multiple apps simultaneously."]
     },
     {
         id: 3,
         title: "KOTLIN",
         title1: "KOTLIN",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Kotlin offers null safety, reducing crashes. It's concise with extension functions and data classes.  It's interoperable with Java, sharing code.",
+        subTitle: ["Null Safety: Avoid crashes - Ensures variables can't be null, preventing crashes.", "Concise Code: Write less, do more - Clean syntax makes code shorter and easier to read.", "Data Classes: Easy data holders - Automatic boilerplate code for data objects.", "Interoperable with Java: Works with Java - Use existing Java libraries seamlessly."]
     },
     {
         id: 4,
         title: "REACT NATIVE",
         title1: "REACT NATIVE",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            " React Native lets you build mobile apps for iOS and Android using JavaScript. You can write most of the app in JavaScript, but tap into native features when needed. This saves development time and lets you use familiar tools. It's open-source and backed by Facebook, so there's a large community for support.",
+        subTitle: ["Write Once, Run Twice: Build iOS & Android apps with a single codebase.", "Live Reloading Magic: See code changes instantly without app restarts.", "Native-Feel Performance: Apps run smooth and responsive, just like native apps.", "Reusable Components: Build UIs faster by creating and reusing building blocks."]
     },
     {
         id: 5,
         title: "IOS",
         title1: "IOS",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "iOS: Apple's mobile OS for iPhones, iPads.  Offers smooth performance, tight app integration, and secure updates. Known for user-friendly interface and popular apps like Safari, FaceTime, and Maps.",
+        subTitle: ["Focus Mode: Silence distractions - Choose who and what can reach you during set times.", "Live Text: Text in photos, ready to use - Copy, translate, or launch actions from text in images.", "App Tracking Transparency: Control your data - Choose which apps can track your activity across apps and websites.", "Siri Shortcuts: Automate tasks with ease - Create voice commands for frequent actions in your favorite apps."]
     },
 ];
 export const databases = [
@@ -438,40 +438,40 @@ export const databases = [
         title: "SQL",
         title1: "SQL",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "SQL, short for Structured Query Language, is a powerful tool for managing data in relational databases.  It lets you access, manipulate, and retrieve information stored in tables with rows and columns.  With SQL commands, you can create, update, and delete data, making it essential for various database tasks.",
+        subTitle: ["Data Definition: Define structure - Create tables with columns to hold specific data types.", "Data Manipulation: Add, change, delete - Use INSERT, UPDATE, and DELETE commands to manage data.", "Data Retrieval: Ask questions - SELECT statement retrieves specific data from tables.", "Data Joining: Combine information - Combine data from multiple tables for complex queries."]
     },
     {
         id: 2,
         title: "MYSQL",
         title1: "MYSQL",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "MySQL stores data in tables.  Imagine spreadsheets connected together.  It's free and open-source software, popular for web applications.  You use SQL language to access and update data.  Companies like Netflix and Facebook rely on MySQL.",
+        subTitle: ["Connect: Talk to Database - Establish connection using server details.", "Create: Build Tables - Define structure for storing data", "Interact: Read & Write Data - Use commands like SELECT and INSERT.", "Manage: Maintain & Secure - Backup, optimize, and control access."]
     },
     {
         id: 3,
         title: "DBMS",
         title1: "DBMS",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database. ",
+        subTitle: ["Define Schema:Plan the Data - Design tables, columns, and data types.", "Store Information:Add the Data - Fill tables with relevant and organized information.", "Access & Query:Find What You Need - Use queries to search, filter, and retrieve data.", "Manage & Update: Keep it Accurate - Edit, delete, and add new data as needed."]
     },
     {
         id: 4,
         title: "POSTGRESQL",
         title1: "POSTGRESQL",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "PostgreSQL is an free open-source database system that supports both relational (SQL) and non-relational (JSON) queries.PostgreSQL is a back-end database for dynamic websites and web applications.",
+        subTitle: ["The multi-version concurrency control (MVCC) feature was first implemented by PostgreSQL.        ", "Custom functions developed in languages like C/C++, Python, Java, etc can be added to PostgreSQL.", "As PostgreSQL is designed to be extensible, one can define their own data types, index types, functional languages, etc.", "If one intends to remove any part of the system, one can always develop a custom plugin to enhance it to meet their specific requirements."]
     },
     {
         id: 5,
         title: "MONGODB",
         title1: "MONGODB",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "MongoDB is a preferred big data option thanks to its ability to easily handle a wide variety of data formats, support for real-time analysis, high-speed data ingestion, low-latency performance, flexible data model, easy horizontal scale-out, and powerful query",
+        subTitle: ["Record Situated: MongoDB stores the primary subject in the negligible number of reports and not by separating it into various social designs like RDBMS.", "Ordering: Without ordering, an information base would need to filter each record of an assortment to choose those that match the question which would be wasteful. ", "Adaptability: MongoDB scales evenly utilizing sharding (dividing information across different servers). Information is divided into information pieces utilizing the shard key", "Total: Conglomeration activities process information records and return the registered outcomes. It is like the GROUPBY provision in SQL. A couple of collection articulations are total, avg, min, max, and so forth"]
     },
 
 ];
@@ -524,8 +524,8 @@ export const DSA = [
         title: "DSA",
         title1: "DSA",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Information structures are fundamental parts that help sort out and store information productively in PC memory. They give a method for overseeing and control information really, empowering quicker access, inclusion, and erasure tasks.",
+        subTitle: ["DSA consists two types Linear and Non-Linear", "Data structure helps to improve logical thinking.", "Data structure helps to solve bigger level problems.", "Algorithms helps to understand the logic of data structures"]
     },
     {
         id: 2,
