@@ -8,6 +8,12 @@ import MiddleText from "../components/home/MiddleText";
 import WorkDone from "../components/home/WorkDone";
 
 const About = () => {
+  const valuesData = [
+    { id: 1, img: "/img/values2.png", para: "#Excellent Work" },
+    { id: 2, img: "/img/values4.png", para: "#Logical Minds" },
+    { id: 3, img: "/img/values1.png", para: "#Impactful Attitude" },
+    { id: 4, img: "/img/values3.png", para: "#Ethics" },
+  ]
 
   return (
     <div>
@@ -25,6 +31,20 @@ const About = () => {
           <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2022" heading=" got the Java certificate " />
           <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2023" heading=" successful managed 20+ clients social media " />
           <WorkDone widthHeight="w-[180px] lg:w-[240px] h-[150px] lg:h-[220px]" arrow="true" num="2024" heading="  register as Pvt Ltd company" />
+        </div>
+
+        <div className="bg-DarkGray py-10 px-20">
+          <MiddleText heading="OUR SKILL SETS" para="LOOPDRILL VALUES" />
+          <div className="flex flex-row justify-center xl:justify-between flex-wrap gap-10 sm:gap-32 pt-10">
+            {valuesData.map((item) => {
+              return (
+                <div key={item.id} className="flex flex-row xl:gap-10">
+                  <div className="text-white text-2xl sm:text-4xl xl:text-6xl w-[150px] xl:w-[200px] ">{item.para}</div>
+                  <img src={item.img} className="w-28 sm:w-40 xl:w-60" alt={item.para} />
+                </div>
+              )
+            })}
+          </div>
         </div>
 
         <Devtools />
