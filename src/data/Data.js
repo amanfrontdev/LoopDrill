@@ -481,40 +481,40 @@ export const testing = [
         title: "AUTOMATION",
         title1: "AUTOMATION",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Automation testing employs scripts and tools to execute pre-scripted test cases, improving efficiency and repeatability. It accelerates the testing process, enhances coverage, and reduces manual effort, ensuring faster and more reliable software delivery.",
+        subTitle: ["Test Script Development: Create automated test scripts to validate software functionality.", "Cross-Platform Testing: Perform tests across various devices and operating systems.", "Continuous Integration: Integrate automated tests into CI/CD pipelines for rapid feedback.", "Test Environment Management: Manage test environments to ensure consistency and reliability of automated tests."]
     },
     {
         id: 2,
         title: "POSTMAN",
         title1: "POSTMAN",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Postman is an API development and testing tool that simplifies the process of building, testing, and documenting APIs. It offers features like request building, automated testing, and collaboration, streamlining API workflows.",
+        subTitle: ["API Testing: Verify API functionality and performance for robust application development.", "Environment Management: Manage test environments efficiently to ensure accurate and reliable testing.", "Integration with CI/CD: Seamlessly integrate API tests into continuous integration and deployment pipelines.", "Documentation: Generate comprehensive API documentation for improved collaboration and understanding."]
     },
     {
         id: 3,
         title: "API TESTER",
         title1: "API TESTER",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "API testers evaluate the functionality, reliability, and performance of APIs. They design and execute test cases, verify responses, and ensure compatibility across various platforms, contributing to the development of robust software systems.",
+        subTitle: ["Script Execution: Run tests to validate app functionality across different scenarios.", "Resource Allocation: Efficiently manage testing environments for accurate and reliable results.", "Integration with SDLC: Seamlessly incorporate app tests into software development lifecycle processes.", "Report Generation: Produce detailed reports to aid collaboration and understanding of app performance."]
     },
     {
         id: 4,
         title: "SELENIUM",
         title1: "SELENIUM",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Selenium for API testing offers a robust framework to automate API interactions. Through HTTP methods, it validates endpoints, verifies responses, and ensures functionality and performance, contributing to comprehensive test coverage.",
+        subTitle: ["Test Scenario Creation: Define test cases to cover application functionalities comprehensively.", "Test Script Development: Write automation scripts to simulate user interactions accurately.", "Test Execution: Run automated tests across browsers and platforms for validation.", "Result Analysis and Reporting: Analyze test results and generate detailed reports for stakeholders."]
     },
     {
         id: 5,
         title: "JUNIT",
         title1: "JUNIT",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "JUnit for API testing is a Java-based framework offering robust testing capabilities. It facilitates writing and executing test cases, assertions, and generating reports, ensuring reliable and efficient validation of API functionalities.",
+        subTitle: ["Test Case Definition: Define scenarios to validate Java code functionalities thoroughly.", "Test Method Implementation: Write Java methods to execute specific test cases.", "Assertion Verification: Verify expected outcomes against actual results for accuracy.", "Report Generation: Generate detailed reports to analyze test results comprehensively."]
     }
 
 ];
@@ -532,32 +532,32 @@ export const DSA = [
         title: "JAVA DSA",
         title1: "JAVA DSA",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Java Data Structures and Algorithms (DSA) provide efficient solutions to complex problems. These include arrays, linked lists, stacks, queues, trees, graphs, and sorting/searching algorithms, enhancing software performance and scalability.",
+        subTitle: ["Understand fundamental data structures: Arrays, Lists, Trees, and Graphs.", "Learn key algorithms: Sorting, Searching, Graph Traversal, and Dynamic Programming.", "Practice implementing DSA concepts in Java for proficiency.", "Apply DSA knowledge to solve real-world problems efficiently."]
     },
     {
         id: 3,
         title: "C DSA",
         title1: "C DSA",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "In C, Data Structures and Algorithms (DSA) are vital for efficient programming. Key concepts include arrays, linked lists, trees, and sorting/searching algorithms, enhancing performance and memory management in software development. ",
+        subTitle: ["Master C's core data structures: Arrays, Pointers, Linked Lists.", "Study algorithms: Sorting, Searching, Recursion, and Memory Management.", "Code DSA concepts in C for skill enhancement and fluency.", "Utilize DSA expertise in C to tackle practical challenges effectively."]
     },
     {
         id: 4,
         title: "ALGORITHM",
         title1: "ALGORITHM",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Algorithms are step-by-step procedures for solving problems. They're crucial in computer science, powering everything from search engines to sorting data. Efficiency, accuracy, and scalability are key considerations in algorithm design.",
+        subTitle: ["Understand algorithm fundamentals: Inputs, Outputs, Steps, and Efficiency Analysis.", "Learn common algorithms: Sorting, Searching, Recursion, and Greedy Approaches.", "Practice algorithmic problem-solving for proficiency and adaptability.", "Apply algorithms creatively to solve diverse real-world challenges efficiently."]
     },
     {
         id: 5,
         title: "CODING INTERVIEW",
         title1: "CODING INTERVIEW",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Coding interviews assess problem-solving abilities, algorithmic skills, and coding proficiency. Candidates tackle challenges under pressure, demonstrating logic, efficiency, and communication. Preparation involves practicing coding problems, refining problem-solving strategies, and mastering data structures and algorithms.",
+        subTitle: ["Grasp problem essence: Inputs, Outputs, Constraints, and Edge Cases.", "Master core algorithms: Sorting, Searching, Recursion, and Dynamic Programming.", "Drill problem-solving: Efficiency, Logic, Communication, and Adaptation.", "Employ creativity: Novel Approaches, Optimization, Error Handling, and Scalability."]
     }
 
 ];
@@ -567,40 +567,40 @@ export const devTools = [
         title: "GIT/GITHUB",
         title1: "GIT/GITHUB",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Git/GitHub revolutionizes version control, enabling collaboration and tracking code changes. Git manages repositories locally, while GitHub hosts remote repositories, facilitating teamwork, code reviews, issue tracking, and continuous integration.",
+        subTitle: ["Version control: Track changes, branches, merges, and rollbacks effectively.", "  Workflow automation: Continuous integration, deployment, and issue tracking integration options.", "Collaboration: Share, review, and contribute to code seamlessly with others.        ", " Remote repositories: Host, manage, and synchronize code across distributed teams."]
     },
     {
         id: 2,
         title: "KUBERNETES",
         title1: "KUBERNETES",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "  Kubernetes is a container orchestration platform that automates deployment, scaling, and management of containerized applications. It simplifies infrastructure management, ensures high availability, and facilitates seamless scaling and updates.",
+        subTitle: ["Container orchestration: Automate deployment, scaling, and management of containerized applications.", "Cluster management: Efficiently handle nodes, resources, and workload distribution.", "Scalability and resilience: Ensure high availability, fault tolerance, and seamless scaling.", "Application lifecycle management: Simplify updates, rollbacks, and resource optimization dynamically."]
     },
     {
         id: 3,
         title: "DOCKER",
         title1: "DOCKER",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Docker simplifies the deployment of applications within containers, ensuring consistency across environments. It streamlines development workflows, enables microservices architecture, and optimizes resource utilization, making software delivery faster and more reliable.",
+        subTitle: ["Containerization: Encapsulate applications for consistency and portability across environments.", "Image management: Build, share, and deploy container images efficiently.", "Resource utilization: Optimize hardware resources for enhanced performance and cost-efficiency.", "Integration versatility: Seamlessly integrate with various tools and platforms for enhanced workflow."]
     },
     {
         id: 4,
         title: "DEVOPS",
         title1: "DEVOPS",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "DevOps is a culture emphasizing collaboration between development and operations teams to automate software delivery and infrastructure changes. It fosters efficiency, reliability, and rapid iteration through continuous integration and deployment.",
+        subTitle: ["Continuous Integration: Merge code changes frequently for rapid development iterations.", "Automated Deployment: Streamline deployment processes for efficiency and reliability.", "Infrastructure as Code: Manage infrastructure through code for scalability and consistency.", "Collaborative Culture: Foster communication between teams for seamless development and operations integration."]
     },
     {
         id: 5,
         title: "TERRAFORM",
         title1: "TERRAFORM",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Terraform is an open-source infrastructure as code software tool by HashiCorp. It enables users to define and provision infrastructure using declarative configuration files, simplifying resource management across various platforms.",
+        subTitle: ["Infrastructure Provisioning: Define and deploy infrastructure with declarative configuration for scalability.", "Multi-Cloud Management: Enable seamless management of resources across diverse cloud platforms.", "Version Control Integration: Integrate with version control systems for efficient infrastructure management.", "State Management: Maintain infrastructure state to track changes and ensure consistency."]
     },
 ];
 export const security = [
@@ -609,39 +609,39 @@ export const security = [
         title: "NETWORK BASICS",
         title1: "NETWORK BASICS",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Security in network basics involves implementing measures to protect data and systems. This includes firewalls, encryption, intrusion detection systems, and regular audits to ensure network integrity and confidentiality against unauthorized access and cyber threats.",
+        subTitle: ["Network Design: Plan topology and infrastructure to meet organizational requirements securely.", "Access Control: Implement policies to restrict unauthorized access to network resources.", "Monitoring and Surveillance: Deploy tools to detect and respond to suspicious activities promptly.", "Regular Updates and Patches: Maintain network security by applying software updates and security patches."]
     },
     {
         id: 2,
         title: "ETHICAL HACKING",
         title1: "ETHICAL HACKING",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Ethical hacking involves authorized testing of systems, networks, and applications to identify vulnerabilities. Ethical hackers, also known as penetration testers, use the same techniques as malicious hackers but with permission to enhance security posture and prevent cyber attacks.",
+        subTitle: ["Planning: Define scope and objectives of ethical hacking engagement.", "Enumeration: Gather information about target systems and networks discreetly.", "Vulnerability Analysis: Identify weaknesses and potential entry points for exploitation.", "Reporting: Document findings and recommend remediation measures to stakeholders."]
     },
     {
         id: 3,
         title: "CYBER SECURITY",
         title1: "CYBER SECURITY",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Cybersecurity involves protecting systems, networks, and data from unauthorized access, attacks, and damage. It encompasses preventive measures, detection, response, and recovery strategies to safeguard against evolving cyber threats and ensure the confidentiality, integrity, and availability of digital assets.",
+        subTitle: ["Risk Assessment: Identify and prioritize potential threats and vulnerabilities.", "Security Implementation: Deploy measures like firewalls, encryption, and access controls.", "Continuous Monitoring: Monitor networks and systems for suspicious activities and anomalies.", "Incident Response: Develop plans to respond to and mitigate security breaches promptly."]
     },
     {
         id: 4,
         title: "PENETRATION TESTING",
         title1: "PENETRATION TESTING",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Penetration testing, or pen testing, is a security assessment approach where authorized professionals simulate cyber attacks on systems, networks, or applications to identify vulnerabilities. The goal is to assess security posture, discover weaknesses, and provide recommendations for strengthening defenses against real-world threats. ",
+        subTitle: ["Planning: Define scope, goals, and methodologies for the penetration test.", "Discovery: Gather information about the target systems and network environment.", "Exploitation: Attempt to exploit identified vulnerabilities to gain unauthorized access.", "Reporting: Document findings, risks, and recommendations for remediation measures."]
     },
     {
         id: 5,
         title: "BUG BOUNTY",
         title1: "BUG BOUNTY",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
-        subTitle: ["Networks basics", "Ethical hacking", "Cyber security", "Penetration testing"]
+            "Bug bounty programs incentivize ethical hackers to report security vulnerabilities. Companies offer rewards for discovering and responsibly disclosing vulnerabilities in their systems, promoting collaboration and improving cybersecurity posture.",
+        subTitle: ["Program Setup: Establish clear guidelines, rewards, and reporting procedures.", "Bug Discovery: Ethical hackers identify vulnerabilities in systems or applications.", "Submission: Report vulnerabilities to the organization following program guidelines.", "Reward: Receive compensation for responsibly disclosing security vulnerabilities found. "]
     },
 ];
