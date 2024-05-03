@@ -1,14 +1,21 @@
   import React from "react";
-  import yoginder from "../../assets/images/yoginder.jpg";
+  import digital from "../../assets/images/ui_ux-.png";
+  import ecommerce from "../../assets/images/ecom.png";
+  import uiux from "../../assets/images/mob.png";
+  import mobile from "../../assets/images/weeb.png";
+  import web from "../../assets/images/dm.png";
   import MiddleText from "../home/MiddleText";
 
   const Devtools = () => {
     const data = [
-      { title: "Title 1", text: "Text 1", image: yoginder },
-      { title: "Title 2", text: "Text 2", image: yoginder },
-      { title: "Title 3", text: "Text 3", image: yoginder },
-      { title: "Title 4", text: "Text 4", image: yoginder },
-      { title: "Title 5", text: "Text 5", image: yoginder },
+      { title: "Title 1", text: "Text 1", image: digital },
+      { title: "Title 4", text: "Text 4", image: mobile },
+      { title: "Title 3", text: "Text 3", image: uiux },
+      { title: "Title 2", text: "Text 2", image: ecommerce },
+      { title: "Title 3", text: "Text 3", image: web },
+   
+      
+     
     ];
     return (
       <div className="mt-20">
@@ -25,10 +32,10 @@
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="object-cover object-center w-full h-full transition-transform duration-500 transform hover:scale-110"
+                  className="object-cover object-center w-full  h-full transition-transform duration-500 transform hover:scale-110"
                 />
-                <div className="absolute inset-0 flex flex-col justify-end items-center bg-black bg-opacity-50 opacity-100 transition duration-500">
-                  <h2 className="text-white text-lg font-bold mb-4">
+                <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-70 opacity-100 transition duration-500">
+                  <h2 className="text-white text-4xl font-bold mb-4">
                     {item.title}
                   </h2>
                   <p className="text-white text-sm mb-4">{item.text}</p>

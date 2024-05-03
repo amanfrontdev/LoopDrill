@@ -12,16 +12,16 @@ const Owner = () => {
         {
           imageUrl: yaman,
           keyValuePairs: {
-            Name: "John Doe",
-            Occupation: "Software Engineer",
+            Name: "Yogendra Bire",
+            Occupation: "Founder and CEO",
             LinkedIn: linkedInUrls[0], // LinkedIn URL for John Doe
           },
         },
         {
           imageUrl: mam,
           keyValuePairs: {
-            Name: "Jane Smith",
-            Occupation: "Graphic Designer",
+            Name: "Smriti Kumari",
+            Occupation: "Co Founder and COO",
             LinkedIn: linkedInUrls[1], // LinkedIn URL for Jane Smith
           },
         },
