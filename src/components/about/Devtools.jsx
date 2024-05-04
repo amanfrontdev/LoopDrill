@@ -8,11 +8,11 @@
 
   const Devtools = () => {
     const data = [
-      { title: "Title 1", text: "Text 1", image: digital },
-      { title: "Title 4", text: "Text 4", image: mobile },
-      { title: "Title 3", text: "Text 3", image: uiux },
-      { title: "Title 2", text: "Text 2", image: ecommerce },
-      { title: "Title 3", text: "Text 3", image: web },
+      { title: "UI/UX", text: "INNOVATIVE DESIGN & CAPTIVATING USER ENGAGEMENT", image: digital },
+      { title: "WEB", text: "EFFICIENT WEB DESIGN & FLAWLESS DEVELOPMENT", image: mobile },
+      { title: "MOBILE", text: "ROBUST MOBILE APPLICATION DESIGN & DEVELOPMENT", image: uiux },
+      { title: "ECOMMERCE", text: "DYNAMIC ECOMMERCE APPLICATION DESIGN & DEVELOPMENT", image: ecommerce },
+      { title: "DM", text: "STRATEGIC DIGITAL MARKETING PLANS & EFFICIENT EXECUTION", image: web },
    
       
      
@@ -38,7 +38,7 @@
                   <h2 className="text-white text-4xl font-bold mb-4">
                     {item.title}
                   </h2>
-                  <p className="text-white text-sm mb-4">{item.text}</p>
+                  <p className="text-white text-lg p-3 mb-4 ">{item.text}</p>
                 </div>
               </div>
             </div>

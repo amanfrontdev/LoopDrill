@@ -73,13 +73,13 @@ const Contact = () => {
               className="emailForm p-4 w-full lg:w-2/3">
               <div className="flex gap-x-4 flex-col gap-4 sm:flex-row mb-4 ">
                 <div className="flex-1 ">
-                  <label htmlFor="name" className="block mb-2 text-sm font-medium text-black dark:text-gray-300" >
+                  <label htmlFor="name" className="block mb-2 text-sm font-medium text-black dark:text-black" >
                     Name
                   </label>
                   <input onChange={handleInput} value={intialData.name} required type="name" name="name" className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light max-[670px]:w-full " placeholder="Your Name" />
                 </div>
                 <div className="flex-1">
-                  <label className="block mb-2 text-sm font-medium text-black dark:text-gray-300" htmlFor="email" >
+                  <label className="block mb-2 text-sm font-medium text-black dark:text-black" htmlFor="email" >
                     Email
                   </label>
                   <input onChange={handleInput} value={intialData.email} required type="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Your Email" />
@@ -88,13 +88,13 @@ const Contact = () => {
 
               <div className="flex gap-x-4 mb-4 flex-col gap-4 sm:flex-row">
                 <div className="flex-1">
-                  <label htmlFor="phone" className="block mb-2 text-sm font-medium text-black dark:text-gray-300" >
+                  <label htmlFor="phone" className="block mb-2 text-sm font-medium text-black dark:text-black" >
                     Phone
                   </label>
                   <input onChange={handleInput} value={intialData.phone} required type="tel" name="phone" className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Your Phone" />
                 </div>
                 <div className="flex-1">
-                  <label htmlFor="subject" className="block mb-2 text-sm font-medium text-black dark:text-gray-300" >
+                  <label htmlFor="subject" className="block mb-2 text-sm font-medium text-black dark:text-black" >
                     Subject
                   </label>
                   <input onChange={handleInput} value={intialData.subject} required type="subject" name="subject" className="shadow-sm bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Subject" />
