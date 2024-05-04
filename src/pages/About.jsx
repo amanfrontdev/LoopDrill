@@ -22,7 +22,7 @@ const About = () => {
       <div className="py-10 w-full">
         <MiddleText heading="Journey of LoopDrill" para="Over the years" />
         <div className="max-w-[1920px] mx-auto">
-          <HeroBanner para2="In the early days, Yogendra, a skilled software developer and corporate trainer, embarked on his journey as a freelancer. Despite facing numerous challenges in acquiring clients and managing projects, his dedication and constant practice forged strong connections with industry experts and clients. Positive feedback and references bolstered his reputation, propelling him into the market's spotlight." para3="As demand surged, Yogendra transitioned his freelance endeavors into a registered IT company, LoopDrill Pvt Ltd. This evolution marked a pivotal moment in his career, enabling him to expand his reach and services while maintaining the quality craftsmanship he's known for. Today, LoopDrill Pvt Ltd stands as a testament to Yogendra's perseverance and expertise in the ever-evolving landscape of technology." />
+          <HeroBanner img="/img/about-banner.jpg" para2="In the early days, Yogendra, a skilled software developer and corporate trainer, embarked on his journey as a freelancer. Despite facing numerous challenges in acquiring clients and managing projects, his dedication and constant practice forged strong connections with industry experts and clients. Positive feedback and references bolstered his reputation, propelling him into the market's spotlight." para3="As demand surged, Yogendra transitioned his freelance endeavors into a registered IT company, LoopDrill Pvt Ltd. This evolution marked a pivotal moment in his career, enabling him to expand his reach and services while maintaining the quality craftsmanship he's known for. Today, LoopDrill Pvt Ltd stands as a testament to Yogendra's perseverance and expertise in the ever-evolving landscape of technology." />
         </div>
 
         <div className="flex flex-row max-w-[1920px] mx-auto px-10 mt-20 pb-20 justify-center gap-16 md:gap-24 flex-wrap ">
@@ -37,11 +37,11 @@ const About = () => {
 
         <div className="bg-DarkGray py-10 px-20">
           <MiddleText heading="OUR SKILL SETS" para="LOOPDRILL VALUES" />
-          <div className="flex flex-row justify-center flex-wrap gap-10 sm:gap-32 pt-10">
+          <div className="flex flex-row justify-center flex-wrap gap-10 sm:gap-28 pt-10 xl:py-20">
             {valuesData.map((item) => {
               return (
                 <div key={item.id} className="flex flex-row xl:gap-10">
-                  <div className="text-white text-2xl sm:text-4xl xl:text-6xl w-[150px] xl:w-[250px] ">{item.para}</div>
+                  <div className="text-white text-2xl sm:text-4xl xl:text-6xl w-[150px] xl:w-[200px]">{item.para}</div>
                   <img src={item.img} className="w-28 sm:w-40 xl:w-60" alt={item.para} />
                 </div>
               )

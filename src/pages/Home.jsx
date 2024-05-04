@@ -13,7 +13,7 @@ const Home = () => {
             {/* first section  */}
             <div className='bg-DarkGray w-full'>
                 <div className='mx-auto max-w-[1920px] flex justify-between'>
-                    <HeroBanner heading="Creating strategies" para1="for cutting-edge technology trends." para2="OFFERING EFFECTIVE SOLUTIONS, OUR SOFTWARE DEVELOPMENT COMPANY SPECIALIZES IN CRAFTING INNOVATIVE SOFTWARE PRODUCTS." />
+                    <HeroBanner img="/img/hero-banner.png" heading="Creating strategies" para1="for cutting-edge technology trends." para2="OFFERING EFFECTIVE SOLUTIONS, OUR SOFTWARE DEVELOPMENT COMPANY SPECIALIZES IN CRAFTING INNOVATIVE SOFTWARE PRODUCTS." />
                 </div>
             </div>
 
