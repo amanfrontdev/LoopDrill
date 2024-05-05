@@ -396,7 +396,7 @@ export const mobileTechApp = [
         title: "FLUTTER",
         title1: "FLUTTER",
         text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non enim, commodi molestias labore facere esse libero. Repellat quae odit suscipit dolor, esse quaerat. Eveniet esse eos temporibus ab id.",
+            "Flutter has a rich set of customizable widgets that developers can use to build their apps. Some of the main widgets include text, row, column, container and scaffold.",
         subTitle: ["Hot Reload: Changes show instantly - See updates in milliseconds without restarting the app.", "Rich Widgets: Build anything fast - Wide variety of pre-built widgets for common UI elements.", "Cross-Platform: Code once, run everywhere - Build native apps for iOS, Android, and more.", "Customizable: Make it your own - Highly customizable widgets and themes for unique designs."]
     },
     {
