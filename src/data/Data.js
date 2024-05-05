@@ -214,7 +214,7 @@ export const Java = [
         title1: "BACKEND",
         text:
             "Empower your creativity. With Java backend expertise, we guide your educational journey, fostering innovative solutions and uncovering the unique essence of your backend projects.",
-        subTitle: ["Dive into Java backend to refine your programming skills.        ", "2. Merge creativity and expertise for robust application development.        ", "2. Merge creativity and expertise for robust application development.        ", "Dedicated guidance to master Java backend intricacies."]
+        subTitle: ["Dive into Java backend to refine your programming skills.        ", "Merge creativity and expertise for robust application development.        ", "Merge creativity and expertise for robust application development.        ", "Dedicated guidance to master Java backend intricacies."]
     },
 
 ];
