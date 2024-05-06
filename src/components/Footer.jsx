@@ -1,23 +1,23 @@
 import React from "react";
 import "../assets/Component.css";
-import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaLinkedin, } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin, FaPinterest, } from "react-icons/fa";
 
 const socialMediaIcons = [
   {
     icon: <FaTwitter />,
-    href: "https://www.linkedin.com/in/yaman-mahawar-a29040231/",
+    href: "https://x.com/LoopDrill?s=08",
   },
   {
     icon: <FaFacebook />,
-    href: "https://www.linkedin.com/in/yaman-mahawar-a29040231/",
+    href: "https://www.facebook.com/profile.php?id=61559517954590",
   },
   {
     icon: <FaInstagram />,
-    href: "https://www.linkedin.com/in/yaman-mahawar-a29040231/",
+    href: "https://www.instagram.com/loopdrill/",
   },
   {
-    icon: <FaYoutube />,
-    href: "https://www.linkedin.com/in/yaman-mahawar-a29040231/",
+    icon: <FaPinterest />,
+    href: "https://www.pinterest.com/loopdrill/",
   },
   {
     icon: <FaLinkedin />,
@@ -38,6 +38,7 @@ const Footer = () => {
                 key={index}
                 href={socialIcon.href}
                 type="button"
+                target="_blank"
                 className="rounded-full bg-transparent p-3  font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out  hover:bg-white focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
               >
                 <span className="mx-auto h-5 w-5 text-white hover:text-DarkGray ">

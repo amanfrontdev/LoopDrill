@@ -6,9 +6,9 @@ import Banner from "../components/Banner";
 const Contact = () => {
 
   const contactDetails = [
-    { icon: <FiMail />, text: "example@example.com" },
-    { icon: <FiMapPin />, text: "123 Street, City, Country" },
-    { icon: <FiPhone />, text: "+1234567890" },
+    { icon: <FiMail />, text: "loopdrill@gmail.com" },
+    { icon: <FiMapPin />, text: "Bharat Kuti, 1026 32, Vijay Nagar, Rohtak, Haryana 124001" },
+    { icon: <FiPhone />, text: "+91-7219852344" },
   ];
 
   const [intialData, setInitialData] = useState({
@@ -42,12 +42,12 @@ const Contact = () => {
         <div className="py-8 lg:py-16 px-4 flex flex-col gap-y-10 max-w-screen-lg ">
           <p className="mb-8 lg:mb-10 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Got a technical issue? Want to send feedback about a beta feature?
-            Need details about our Business plan? Let us know.
+            Need details about our Business plan?<span className="text-white animate-pulse"> Let us know.</span>
           </p>
 
           <div className="flex flex-col lg:flex-row-reverse bg-gray-200 shadow-black rounded-lg shadow-md">
 
-            <div className="flex flex-col py-10 w-full lg:w-1/3 bg-gradient-to-r from-purple-600 to-blue-600 px-10 gap-5 md:gap-x-24 flex-wrap rounded-t-lg lg:rounded-r-lg">
+            <div className="flex flex-col py-10 w-full lg:w-1/3 bg-gradient-to-r from-purple-600 to-blue-600 px-10 gap-5 md:gap-x-24 flex-wrap rounded-t-lg lg:rounded-tl-none lg:rounded-r-lg">
               <div className="">
                 <div className="text-white text-2xl font-bold">Contact Information</div>
                 <p className="text-white text-sm my-5">Welcome to LoopDrill, Feel free to contact us!</p>
@@ -59,8 +59,10 @@ const Contact = () => {
                       key={index}
                       className="flex items-center bg-slate-100 p-2 rounded-lg"
                     >
-                      {item.icon}
-                      <span className="text-black  ml-2">{item.text}</span>
+                      <div className="w-5">
+                        {item.icon}
+                      </div>
+                      <span className="text-black ml-2">{item.text}</span>
                     </div>
                   </div>
                 )
@@ -113,6 +115,14 @@ const Contact = () => {
 
           </div>
 
+
+          <div className="flex flex-col bg-DarkGray/20 shadow-white rounded-lg shadow-md">
+            <ol className="text-white list-disc px-10 py-4 text-[12px] sm:text-[16px]">
+              <li>Address1 : Bharat Kuti, 1026 32, Vijay Nagar, Rohtak, Haryana 124001 (HQ)</li>
+              <li>Address2 : 607 Vrajhdham By Signature, Ujala circle, Ahmadabad, Gujarat 382210</li>
+              <li>Address3 : Shivrani Heights, Gokul Socity, Gorewada Road, Nagpur, Maharashtra 440013</li>
+            </ol>
+          </div>
         </div>
       </section>
     </div>
