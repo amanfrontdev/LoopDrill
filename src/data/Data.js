@@ -55,7 +55,7 @@ export const cardsData1 = [
         id: 3,
         title: "Full-Stack Development",
         title1: "Full-Stack Development",
-        text:"Empower your creativity. We blend frontend finesse with backend expertise to craft full-stack web solutions, ensuring your unique vision shines through every aspect of your project.",
+        text: "Empower your creativity. We blend frontend finesse with backend expertise to craft full-stack web solutions, ensuring your unique vision shines through every aspect of your project.",
         subTitle: [" Craft full-stack web solutions tailored to your unique vision.        ", " Fuse creativity and expertise for seamless frontend and backend integration.", " Implement robust features for optimal performance and user experience.        ", "Dedicated to bringing your full-stack web project to life."]
     },
     {
@@ -64,7 +64,7 @@ export const cardsData1 = [
         title1: "Custom Web App Development",
 
         text:
-        "Empower your creativity. We translate it into bespoke web applications, leveraging our expertise to craft custom solutions that reflect the uniqueness of your vision.",
+            "Empower your creativity. We translate it into bespoke web applications, leveraging our expertise to craft custom solutions that reflect the uniqueness of your vision.",
         subTitle: ["Tailor custom web apps to your unique business needs.        ", "Merge creativity and expertise for innovative app solutions.        ", "Implement bespoke features for optimal functionality and user experience.", "Dedicated to realizing your custom web app goals with precision."]
     },
 ];
@@ -214,7 +214,7 @@ export const Java = [
         title1: "BACKEND",
         text:
             "Empower your creativity. With Java backend expertise, we guide your educational journey, fostering innovative solutions and uncovering the unique essence of your backend projects.",
-        subTitle: ["Dive into Java backend to refine your programming skills.        ", "Merge creativity and expertise for robust application development.        ", "Merge creativity and expertise for robust application development.        ", "Dedicated guidance to master Java backend intricacies."]
+        subTitle: ["Dive into Java backend to refine your programming skills.        ", "Merge creativity and expertise for robust application development.", "Merge creativity and expertise for robust application development.", "Dedicated guidance to master Java backend intricacies."]
     },
 
 ];
@@ -233,15 +233,15 @@ export const Python = [
         title1: "ADVANCE",
         text:
             "Advance your Python skills by mastering advanced topics such as asynchronous programming, metaprogramming, and functional programming paradigms, enabling you to tackle complex problems with confidence and efficiency.",
-        subTitle: ["Dive into advanced Python concepts like decorators, context managers, and generators to elevate your coding proficiency and solve intricate problems more elegantly.", "Explore third-party libraries such as NumPy, Pandas, and TensorFlow to tackle complex data analysis, machine learning, and scientific computing tasks efficiently.", "Utilize Python frameworks like Django, Flask, and FastAPI to develop robust web applications and APIs with advanced features and scalability.", "Engage with online communities, attend conferences, and participate in open-source projects to enhance your expertise and contribute to the ever-evolving landscape of Python development."]
+        subTitle: ["Dive into advanced Python concepts like decorators, context managers, and generators to elevate your coding proficiency and solve intricate problems more elegantly.", "Explore third-party libraries such as NumPy, Pandas, and TensorFlow to tackle complex data analysis, machine learning, and scientific computing tasks efficiently.", "Utilize Python frameworks like Django, Flask, and FastAPI to develop robust web applications and APIs with advanced features and scalability.", "Participate in online forums, conferences, and open-source projects to enrich Python expertise and contribute to its evolution."]
     },
     {
         id: 3,
         title: "FRAMEWORK(DJANGO)",
         title1: "FRAMEWORK(DJANGO)",
         text:
-            "  Django, a high-level Python web framework, empowers developers to build secure, scalable, and feature-rich web applications swiftly. With its batteries-included philosophy and robust ecosystem, Django simplifies complex tasks, from URL routing to database management, fostering rapid development and maintainability.",
-        subTitle: ["Explore Django's underlying architecture to gain insights into its framework design principles and enhance your ability to develop scalable and maintainable web applications effectively.", "Leverage Django's extensive collection of built-in modules and features to accelerate development workflows and simplify common web development tasks.", "Harness Django's compatibility with different databases and deployment environments to ensure seamless execution and scalability of your web applications across diverse platforms.", "Engage with the vibrant Django community to stay abreast of the latest updates, share insights, and collaborate on projects, fostering continuous learning and innovation in Django development."]
+            " Django: Python web framework for fast, secure, feature-rich apps. Batteries-included, simplifies URL routing, DB management, enabling rapid development and maintainability.",
+        subTitle: ["Delve into Django's architecture for scalable, maintainable web app development insights.", "Leverage Django's extensive collection of built-in modules and features to accelerate development workflows and simplify common web development tasks.", "Harness Django's compatibility with different databases and deployment environments to ensure seamless execution and scalability of your web applications across diverse platforms.", "Connect with the dynamic Django community for updates, insights, and collaboration, promoting ongoing learning and innovation."]
     },
     {
         id: 4,

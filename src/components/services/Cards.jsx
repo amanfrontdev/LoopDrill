@@ -21,7 +21,7 @@ const Cards = ({ cardsData }) => {
                 className={`relative rounded-2xl overflow-hidden text-2xl tracking-normal p-2 font-semibold w-full ${isExpanded
                   ? "w-[100%] min-h-40 text-customPurple"
                   : " text-white w-full md:w-[18%] min-h-16 justify-center items-center flex "
-                  } md:h-[28rem] transition-width duration-1000 ease-in-out`}
+                  } md:h-[32rem] transition-width duration-1000 ease-in-out`}
                 style={{
                   background: `linear-gradient(to top, #000000, #7448fe, #FFFFFF)`,
                   marginBottom: "2rem",
@@ -51,9 +51,9 @@ const Cards = ({ cardsData }) => {
                 )}
                 {isExpanded && (
                   <div className="flex gap-4 flex-col text-[14px] text-start sm:text-[16px] leading-[20px]" style={{ marginTop: "1.5rem", marginLeft: ".5rem" }}>
-                    {item?.subTitle?.map((subCategory) => {
+                    {item?.subTitle?.map((subCategory, index) => {
                       return (
-                        <div key={subCategory.id} className="capitalize bg-white py-2 px-2  rounded-[10px]">
+                        <div key={index} className="capitalize bg-white py-2 px-2  rounded-[10px]">
                           {subCategory}
                         </div>
                       )
